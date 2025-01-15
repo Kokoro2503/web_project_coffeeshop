@@ -5,15 +5,15 @@
   margin-left: auto;
   font-family: "inter", Arial, sans-serif, "Noto Serif", "Times New Roman",
     serif;
-  font-size: 16px;
-  line-height: 20px;
-  padding: 30px 80px 40px;
 }
 
 .header {
   min-height: 720px;
   max-height: 800px;
-  background-image: url(../images/background_header.svg);
+  background: #fff url(../images/background_header.svg) no-repeat center/cover;
+  position: relative;
+  padding: 30px 80px 40px;
+  box-sizing: border-box;
 }
 
 .nav {
@@ -44,15 +44,14 @@
   list-style: none;
   margin: 0px;
 }
-.header__tittle {
-  font-family: "Inter" . Arial, sans-serif;
+.header__title {
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
   letter-spacing: -1px;
   max-width: 709px;
-  left: 80px;
   top: 183px;
 }
 
@@ -68,41 +67,47 @@
 
 .header__description {
   position: absolute;
-  font-family: "Noto Serif" . "Times New Roman", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  left: 80px;
   line-height: 20px;
   max-width: 683px;
-}
-
-.header__footer {
-  font-family: "Inter" . Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #8383838;
-}
-
-.header__timetable {
-  margin-bottom: 40px;
-  margin-right: 80px;
-}
-
-.header__address {
-  margin-bottom: 40px;
-  margin-left: 80px;
+  gap: 28px;
 }
 
 .header__image {
   position: absolute;
   right: 5px;
-  top: 124px;
+  top: 94px;
   width: 646px;
   height: 568px;
+}
+
+.header__footer {
+  bottom: -40px;
+}
+
+.header__paragraph {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.header__timetable {
+}
+
+.header__address {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
 }
 
 .content {
