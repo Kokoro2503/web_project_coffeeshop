@@ -86,7 +86,14 @@
 }
 
 .header__footer {
-  bottom: -40px;
+  display: flex;
+  position: absolute;
+  bottom: 40px;
+  justify-content: space-between;
+}
+
+.header__timetable {
+  list-style: none;
 }
 
 .header__paragraph {
@@ -98,23 +105,22 @@
   color: #838383;
 }
 
-.header__timetable {
-}
-
 .header__address {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
+  display: flex;
+  right: 80px;
+  bottom: 40px;
 }
 
 .content {
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+  background: #0a2750 url(../images/background_recipes.svg) no-repeat
+    center/cover;
+  padding: 100px 80px;
+  box-sizing: border-box;
   display: block;
-  background-color: #0a2750;
   size: cover;
-  position: center;
 }
 
 .recipes__title {
