@@ -5,6 +5,9 @@
   margin-left: auto;
   font-family: "inter", Arial, sans-serif, "Noto Serif", "Times New Roman",
     serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
 }
 
 .header {
@@ -29,6 +32,15 @@
 }
 
 .header__content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: "Inter", Arial, Sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
   max-width: 709px;
   width: 100%;
 }
