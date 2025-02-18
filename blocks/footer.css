@@ -31,7 +31,7 @@
   height: 39px;
 }
 
-.foter__social {
+.footer__social {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
